@@ -191,6 +191,19 @@ const defaults = {
 
 ## Building & Publishing
 
+Setting up npm Required:
+```shell
+node.js npm
+sudo ln -s /usr/bin/nodejs /usr/bin/node
+npm install --global rollup
+npm install --save-dev rollup-plugin-babel
+npm install --save-dev rollup-plugin-node-resolve
+npm install --save-dev rollup-plugin-commonjs
+npm install --save-dev babel-preset-es2015 babel-plugin-external-helpers
+npm i babel-preset-es2015
+npm install
+```
+
 To build the plugin, run:
 
     npm run build
