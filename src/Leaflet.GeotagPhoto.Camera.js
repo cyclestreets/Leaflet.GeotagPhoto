@@ -23,23 +23,23 @@ export default L.FeatureGroup.extend({
     maxAngle: 120,
 
     // Control button images
-    controlCameraImg: '../images/camera-icon.svg',
-    controlCrosshairImg: '../images/crosshair-icon.svg',
+    controlCameraImg: '/js/Leaflet.GeotagPhoto/images/camera-icon.svg',
+    controlCrosshairImg: '/js/Leaflet.GeotagPhoto/images/crosshair-icon.svg',
 
     cameraIcon: L.icon({
-      iconUrl: '../images/camera.svg',
+      iconUrl: '/js/Leaflet.GeotagPhoto/images/camera.svg',
       iconSize: [38, 38],
       iconAnchor: [19, 19]
     }),
 
     targetIcon: L.icon({
-      iconUrl: '../images/marker.svg',
+      iconUrl: '/js/Leaflet.GeotagPhoto/images/marker.svg',
       iconSize: [32, 32],
       iconAnchor: [16, 16]
     }),
 
     angleIcon: L.icon({
-      iconUrl: '../images/marker.svg',
+      iconUrl: '/js/Leaflet.GeotagPhoto/images/marker.svg',
       iconSize: [32, 32],
       iconAnchor: [16, 16]
     }),
