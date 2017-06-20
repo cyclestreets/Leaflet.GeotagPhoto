@@ -4,7 +4,9 @@
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-245 365 64 64"
 	 style="enable-background:new -245 365 64 64;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#4A4A4A;}
+	.st0{opacity:0.8;fill:#000000;}
+	.st1{fill:#7DA7C6;fill-opacity:0.8;stroke:#EEEEEE;stroke-width:3;}
 </style>
 <path id="Rectangle-2" class="st0" d="M-227.5,385.6h-14.5v29.1h58.1v-29.1h-14.5v-7.3h-29.1V385.6z"/>
+<path id="Rectangle-22" class="st1" d="M-227.5,385.6h-14.5v29.1h58.1v-29.1h-14.5v-7.3h-29.1V385.6z"/>
 </svg>
