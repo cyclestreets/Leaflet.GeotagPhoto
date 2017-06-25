@@ -220,3 +220,40 @@ To publish the plugin to [npm](https://www.npmjs.com/package/leaflet-geotag-phot
 - https://github.com/nypl-spacetime/field-of-view
 - https://github.com/nypl-spacetime/surveyor
 - http://turfjs.org/
+
+
+# Camera Source Code flow
+
+<pre>
+_updateFieldOfView
+	_updateMarkerBearings
+	_drawFieldOfView
+
+setCameraLatLng
+	_updateFieldOfView
+
+setTargetLatLng
+	_updateFieldOfView
+
+setAngle
+	_updateFieldOfView
+	'input'
+
+_onAngleMarkerDrag
+	setAngle
+_onAngleMarkerKeyDown
+	setAngle
+
+_onMarkerDrag
+	_updateFieldOfView
+	'input'
+
+_onMarkerDragEnd
+	'change'
+
+_moveMarker
+	'change'
+
+_onMarkerKeyDown
+	_moveMarker
+</pre>

@@ -2,6 +2,7 @@ import L from 'Leaflet'
 
 export default L.Evented.extend({
   options: {
+      // !! All the /images need combining with cyclestreetsNS.baseUrl
     crosshairHTML: '<img alt="Center of the map; crosshair location" title="Crosshair" src="/images/Leaflet.GeotagPhoto/crosshair.svg" width="100px" />'
   },
 

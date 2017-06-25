@@ -22,7 +22,8 @@ export default L.FeatureGroup.extend({
     minAngle: 5,
     maxAngle: 120,
 
-    // Control button images
+      // Control button images
+      // !! All the /images need combining with cyclestreetsNS.baseUrl
     controlCameraImg: '/images/Leaflet.GeotagPhoto/camera-icon.svg',
     controlCrosshairImg: '/images/Leaflet.GeotagPhoto/crosshair-icon.svg',
 
