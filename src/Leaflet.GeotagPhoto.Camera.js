@@ -238,10 +238,10 @@ export default L.FeatureGroup.extend({
     this._polygon.setLatLngs(pointList)
   },
 
-  _updateFieldOfView: function () {
+  _updateFieldOfView: function (tgtLatLng) {
     var angle = this._angle
     var cameraLatLng = this._cameraMarker.getLatLng()
-    var targetLatLng = this._targetMarker.getLatLng()
+    var targetLatLng = tgtLatLng || this._targetMarker.getLatLng();
 
     var cameraTarget = {
       type: 'Feature',
